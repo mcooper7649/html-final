@@ -1,0 +1,276 @@
+nav {
+    background-color: #C12127;
+    color: rgba(255,255,255,0.8);
+    /* padding-top: 15px; */
+    height: 100px;
+    
+  }
+  
+  nav a {
+    color: rgba(255,255,255,0.8);
+    text-decoration: none;
+    
+  }
+
+  body {
+    margin: 0;
+  }
+
+  
+
+  .top-links {
+    display: inline-block;
+    float: right;
+    padding: 0;
+    margin: 0 20px 0 0;
+  }
+  
+  .top-links li {
+    display: inline-block;
+    margin: 0 10px;
+    align-self: auto;
+  }
+
+  .search-div {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    
+  }
+  
+  .search-button {
+    display: flex;
+    float: right;
+  }
+
+  .bat-div {
+    display: flex;
+    margin: 0 auto;
+    width: 50%;
+    flex-direction: column;
+  }
+
+  header {
+    height: 600px;
+    color: white;
+    background-image: url("images/city-scape.svg");
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
+
+  .npm-logo {
+    height: 10%;
+    width: 10%;
+  }
+
+  .searchbar {
+    background: rgb(32, 101, 136);
+    height: 25px;
+    padding: 0;
+    display: flex;
+  }
+  
+  .myform input{
+    display: flex;
+    margin: 0 auto;
+    height: 45px;
+    width: 1000px;
+  }
+
+  .bat-header {
+    margin: 0 0 25px;
+    display: flex;
+  }
+
+  .bat-p {
+    width: 600px;
+    font-size: 1.3em;
+  }
+  
+
+  .bat-div h1 {
+    font-size: 3rem;
+  }
+
+
+  #top-section {
+    background-color: rgb(39, 53, 71);
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 0;
+  }
+
+
+
+  #mid-section {
+    height: 600px;
+    background-image: url("images/forklift.svg");
+  }
+
+  h1 {
+    margin: 0 auto;
+    color: white;
+  }
+  body > header > div.search-div > button  {
+    height: 45px;
+    width:  50px;
+    background: rgb(32, 101, 136);
+    color: white;
+  }
+
+  body > header > div.search-div > button > img {
+    height: 45px;
+    width:  50px;
+    color: white;
+  }
+
+  .bear-logo {
+    height: 45px; 
+  }
+
+  #sign-up-btn {
+    background-color: rgb(240, 146, 51);
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    margin: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 145px;
+    border-radius: 1.5em;
+  }
+
+
+  .top-wrapper {
+    display: flex;
+    padding-top: 200px;
+    flex-direction: row;
+    margin: 0 20px;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: white;
+  }
+
+  .collab-div {
+    display: flex;
+  }
+
+
+  #sign-orgs-btn {
+    background-color: rgb(203, 56, 55);
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    margin: 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 200px;
+    border-radius: 1.5em;
+  }
+
+  .top-header {
+    width: 70%;
+    align-self: left;
+  }
+
+  .npm-list li {
+    padding: 2px;
+  }
+
+  .mid-header {
+    display: flex;
+    font-size: 3rem;
+  }
+   .p-header {
+    display: flex;
+    padding: 10px 0 0 10px;
+    font-size: 1.2rem;
+    width: 425px;
+    
+   } 
+
+   .install-btn {
+    
+    background-color: rgb(49, 68, 88);
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 700px;
+    border-radius: 1.5em;
+    margin-top: 15px;
+   }
+
+  .mid-div {
+    color: white;
+    margin: 0 auto;
+    padding-top: 150px;
+    padding-left: 250px;
+  }
+
+  .bot-header {
+    color: black;
+    font-size: 2.0rem;
+    }
+
+  .bot-p {
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+
+  .bot-div {
+    padding-top: 90px;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    
+  }
+
+.mybox {
+  display: flex;
+  padding: 2%;
+  }
+
+.box1 {
+  display: flex;
+  padding: 1%;
+  margin: 0 auto;
+  flex-direction: column;
+  
+  
+ }   
+ .mybox img {
+   display: flex;
+   justify-content: center;
+   margin: 5%;
+   align-self: center;
+
+ }
+
+.mybox h1 {
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+
+.description {
+    padding-bottom: 10%;
+    padding-top: 4%;
+}
+
+
+
+section .btm-img {
+    width: 172px;
+
+}
+  
+    
