@@ -2,7 +2,7 @@ nav {
   background-color: #C12127;
   color: rgba(255,255,255,0.8);
   /* padding-top: 15px; */
-  height: 75px;
+  height: 35px;
   
 }
 
@@ -19,7 +19,7 @@ body {
 .top-div {
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
+  padding-top: 0.5%;
   padding-left: 15px;
   align-items: center;
 }
@@ -41,7 +41,7 @@ body {
 .search-div {
   display: flex;
   flex-direction: row;
-  padding: 3% 0;
+  padding: .4% 1%;
   
 }
 
@@ -59,15 +59,11 @@ body {
 
 .bat-div {
   display: flex;
-  margin: 0 auto;
+  margin: 5% auto;
   width: 50%;
   flex-direction: column;
 }
-  .bat-div {
-    display: flex;
-    margin: 0 auto;
-    width: 50%;
-  }
+
 
   header {
     height: 600px;
@@ -157,7 +153,7 @@ body {
     border: none;
     color: white;
     padding: 10px 5px;
-    margin: 25px;
+    margin-top: 25px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -171,7 +167,6 @@ body {
     padding-top: 200px;
     flex-direction: row;
     margin: 0 20px;
-    justify-content: center;
     justify-content: space-evenly;
     color: white;
   }
@@ -180,13 +175,22 @@ body {
     display: flex;
   }
 
+  .collab {
+    width: 500px;
+    margin-left: 450px;
+  }
+  
+  .npm-org-div {
+    margin: 0 3%;
+    padding-right: 30%;
+  }
+
 
   #sign-orgs-btn {
     background-color: rgb(203, 56, 55);
     border: none;
     color: white;
     padding: 10px 5px;
-    margin: 25px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
@@ -194,13 +198,19 @@ body {
     border-radius: 1.5em;
   }
 
+  #learn-more {
+
+  }
+
   .top-header {
-    width: 70%;
-    align-self: left;
+    margin-bottom: 10%;
+    font-size: 3em;
+    width: 500px;
   }
 
   .npm-list li {
-    padding: 2px;
+    padding: 10px;
+    font-size: large;
   }
 
   .mid-header {
@@ -287,7 +297,9 @@ body {
     padding-top: 4%;
 }
 
-
+.last-para {
+  padding-top: 15px
+}
 
 section .btm-img {
     width: 172px;
