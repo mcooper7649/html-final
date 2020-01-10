@@ -40,14 +40,21 @@ body {
 
 .search-div {
   display: flex;
-  justify-content: space-evenly;
   flex-direction: row;
+  padding: 3% 0;
   
 }
 
 .search-button {
   display: flex;
-  float: right;
+  margin-right: 10%;
+  margin-top: 1px;
+  align-self: auto;
+}
+
+#sign-up {
+  margin-top: 20px
+  
 }
 
 .bat-div {
@@ -60,7 +67,6 @@ body {
     display: flex;
     margin: 0 auto;
     width: 50%;
-    flex-direction: column;
   }
 
   header {
@@ -77,13 +83,15 @@ body {
   .npm-logo {
     height: 10%;
     width: 10%;
+    margin-right: 10%;
   }
 
   .searchbar {
     background: rgb(32, 101, 136);
     height: 25px;
-    padding: 0;
+    padding-left: 25px;
     display: flex;
+    font-size: 1em;
   }
   
   .myform input{
@@ -128,20 +136,20 @@ body {
     color: white;
   }
   body > header > div.search-div > button  {
-    height: 45px;
-    width:  50px;
-    background: rgb(32, 101, 136);
-    color: white;
+    height: 48px;
+    background: white;  
+    /* //changed to white because magnifying photo was grey.  */
   }
 
   body > header > div.search-div > button > img {
-    height: 45px;
-    width:  50px;
+    height: 40px;
     color: white;
   }
 
-  .bear-logo {
-    height: 45px; 
+  #bear-logo {
+    height: 53px;
+    padding-left: 30px;
+    
   }
 
   #sign-up-btn {
